@@ -26,3 +26,9 @@ Route::get('/locale/{locale}', function ($locale) {
 Route::get('/langtest', function () {
     return view('langtest.langtest');
 });
+
+
+
+Route::get('/sliders', function () {
+    return view('sliders.sliders');
+});
