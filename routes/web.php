@@ -32,3 +32,8 @@ Route::get('/langtest', function () {
 Route::get('/sliders', function () {
     return view('sliders.sliders');
 });
+
+
+Route::get('/navbars', function () {
+    return view('navbars.navbars');
+});
