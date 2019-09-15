@@ -43,3 +43,6 @@ Route::get('/sliders', function () {
 Route::get('/navbars', function () {
     return view('navbars.navbars');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
