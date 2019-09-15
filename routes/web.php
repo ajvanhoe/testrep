@@ -43,3 +43,11 @@ Route::get('/sliders', function () {
 Route::get('/navbars', function () {
     return view('navbars.navbars');
 });
+
+Route::get('/sqlite-test', function () {
+
+        $people = App\Person::all();
+
+        dd($people);
+
+});
