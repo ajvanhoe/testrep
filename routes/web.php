@@ -23,6 +23,12 @@ Route::get('/locale/{locale}', function ($locale) {
 });
 
 
+Route::get('/apptest', function() {
+    //dd(app());
+    return "Radi!";
+});
+
+
 Route::get('/langtest', function () {
     return view('langtest.langtest');
 });
