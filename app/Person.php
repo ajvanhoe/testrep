@@ -8,9 +8,16 @@ class Person extends Model
 {
     protected $guarder = [];
 
+    protected $attributes = [
+        'active' => 0,
+
+    ];
 
     public function getActiveAttribute($attribute) {
+        return $this->activeOptions()[$attribute];
+    }
 
+    public function activeOptions() {
         return [
 
             0 => 'inactive',
@@ -18,9 +25,7 @@ class Person extends Model
             2 => 'admin',
             3 => 'super',
 
-        ][$attribute];
-
-
+        ];
     }
 
 

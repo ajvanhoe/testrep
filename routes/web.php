@@ -44,10 +44,31 @@ Route::get('/navbars', function () {
     return view('navbars.navbars');
 });
 
-Route::get('/sqlite-test', function () {
+Route::get('/people', function () {
 
         $people = App\Person::all();
 
         dd($people);
 
 });
+
+
+
+Route::get('/people/{person}', function (App\Person $person) {
+
+        //dd($person);
+
+        echo $person->active;
+
+});
+
+
+
+
+// Route::get('/contact', function(){
+//     return view('contact.contactform');
+
+// });
+Route::view('/contact', 'contact.create');
+
+Route::post('/contact', 'ContactController@store');
