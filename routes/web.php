@@ -43,6 +43,7 @@ Route::get('/sliders', function () {
 Route::get('/navbars', function () {
     return view('navbars.navbars');
 });
-Auth::routes();
+
+Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
