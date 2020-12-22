@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateUsersTable extends Migration
 {
@@ -22,6 +22,19 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+
+        DB::table('users')->insert(
+            array(
+                'name' => 'admin',
+                'email' => 'admin@maxdesign.rs',
+                'password' => Hash::make('max-admin1'),  // eventualno
+             )
+        );
+
+
+
+
     }
 
     /**
