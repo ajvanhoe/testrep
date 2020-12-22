@@ -8,7 +8,7 @@
 		</div>
 
 		<div class="col_two_third col_last center nopadding nomargin">
-			<i class="icon-facebook"></i>
+			<!-- <i class="icon-facebook"></i> -->
 		</div>
 	</div>
 </section>
