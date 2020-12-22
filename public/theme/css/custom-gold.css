@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+
+.heading-home-top {
+    padding: 35px 25px 35px 35px;
+    background: rgba(0,0,0,.2);	
+}
+
+.heading-home-top h1 {
+    font-size: 40px;
+    color: #EEE;
+    /* color: #a5a5a5; */
+    text-shadow: -1px -1px 0 #a5a5a5, 1px -1px 0 #a5a5a5, -1px 1px 0 #a5a5a5, 1px 1px 0 #a5a5a5;
+}
+
+.heading-text {
+    max-width: 50%;
+}
+
+.heading-top {
+    position: relative;
+    top: 25%;
+    margin-right: 20%;
+    background: rgba(0,0,0,.4);
+}
+
+}
