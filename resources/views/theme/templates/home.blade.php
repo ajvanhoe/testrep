@@ -55,7 +55,7 @@
 </section>
 
 <!-- Social Icons -->
-@include('theme.partials.social-icons')
+@include('theme.partials.gold-price')
 
 <!-- Home Lead -->
 <section id="home-lead" class="section bg-gray divider-gray nomargin">
@@ -65,7 +65,10 @@
             <div class="heading-block">
 				<h3>Buy Gold Legally from African Sovereign Investment Strategic Partners Ltd</h3>
             </div>
-            <p>Buy gold, diamonds, minerals, and precious metals legally at the best price on the market from a trusted ​African Sovereign Investment Strategic Partners Ltd company​. We work directly with the trusted gold producers, the Government, and logistic partners that helps us transfer the gold in the safest and most efficient way to the desired addresses.</p>
+
+            <div class="subtext-xs">
+                <p>Buy gold, diamonds, minerals, and precious metals legally at the best price on the market from a trusted ​African Sovereign Investment Strategic Partners Ltd company​. We work directly with the trusted gold producers, the Government, and logistic partners that helps us transfer the gold in the safest and most efficient way to the desired addresses.</p>
+            </div>
             <a href="{{route('main', 'buy-gold')}}" class="button btn-asisp button-rounded button-large noleftmargin topmargin-sm">Read More</a>
         </div>
 
@@ -79,25 +82,27 @@
 
 <section class="section bg-white nomargin">
     <div class="container clearfix ">
-	<div class="col_half bottommargin-sm">
-		<img data-animate="fadeInLeft" src="{{asset('theme/images/asisp/asisp-ltd.jpg')}}" alt="ASISP LTD">
-	</div>
-	
-	<div class="heading-block nomargin">
-		<h3 class="nopadding">Assistance​ and help of our ​licenced dealer</h3>
-		<div class="divider-asisp"></div>
-	</div>
+        <div class="col_half bottommargin-sm">
+            <img data-animate="fadeInLeft" src="{{asset('theme/images/asisp/asisp-buy-gold.jpg')}}" alt="ASISP LTD">
+        </div>
 
-	<div class="col_half bottommargin-sm col_last">
-		
-    <p>​According to our many years of expertise, we have been recognized as one of the most
-    trusted companies in the gold selling worldwide market. You can expect up to​ <span class="asisp-text">20kg of gold</span>
-    (or any kind of other precious metals) ​per day​, with the​ ​full logistic assistance​ and help of
-    our ​licenced dealer​ who is responsible for safe trading.</p>
+        <div class="col_half bottommargin-sm col_last">
 
-    <a href="{{route('main', 'about')}}" class="button btn-asisp button-rounded button-large noleftmargin topmargin-sm">About Us</a>
-		
-	</div>
+            <div class="heading-block bottommargin-sm">
+                <h3 class="nopadding">Assistance​ and help of our ​licenced dealer</h3>
+            </div>
+            
+            
+            <div class="subtext-xs">
+                <p>​According to our many years of expertise, we have been recognized as one of the most
+                trusted companies in the gold selling worldwide market. You can expect up to​ <span class="asisp-text">20kg of gold</span>
+                (or any kind of other precious metals) ​per day​, with the​ ​full logistic assistance​ and help of
+                our ​licenced dealer​ who is responsible for safe trading.</p>
+            </div>
+
+        <a href="{{route('main', 'about')}}" class="button btn-asisp button-rounded button-large noleftmargin topmargin-sm">About Us</a>
+            
+        </div>
 	</div>
 </section>
 
@@ -110,13 +115,13 @@
 		    <h2 class="asisp-text"> ​Buy gold online at the mine value from the trusted source</h2>
 		</div>
 
-		<div class="nobottommargin">
+		<div class="nobottommargin subtext-xs">
             <p>​For those who are wondering how to buy gold online at the low-cost price on the market, we offer you a completely​ legal and secure​ transaction of gold, diamonds, minerals, and precious metals which was previously ​reported to the Government by our licenced dealer ​and ​the tax of 3%​ on the international market value​ is paid.</p>
 		</div>
 
 	</div>
 
-	<div class="col-lg-6 center col-padding" style="background: url('https://www.citizenship-european.com/theme/images/citizenship-european-gci-better-life.jpg') center center no-repeat; background-size: cover;">
+	<div class="col-lg-6 center col-padding" style="background: url('{{asset('theme/images/asisp/asisp-better-life.jpg')}}') center center no-repeat; background-size: cover;">
 	</div>
 
 	
@@ -128,7 +133,7 @@
 	<div class="container clearfix">
 
 		<div class="main-section divcenter">
-			<div class="center">
+			<div class="center subtext">
                 <p> ​Our partners are experienced ​gold producers​ with whom we have a long-term
                     collaboration and who provide us with <span class="asisp-text">​low-cost gold of 22 plus carats​</span> that can be poured
                     into 1, 10, 15, or 20kg bars.​ </p>
@@ -148,7 +153,6 @@
             <p> ​If you are interested in buying cheap gold from a renowned company and its licenced dealer, you can contact us via​ ​​mobile phone​: <span class="asisp-text">+66 99091 8357</span><br>also for
                 WhatsApp / SIGNAL / VIBER / LINE​. </p>
 
-	
 			<a href="{{route('contact')}}" class="button btn-asisp button-rounded button-medium noleftmargin topmargin-sm">Contact Us</a>
 			
             </div>

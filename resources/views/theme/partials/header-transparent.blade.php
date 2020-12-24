@@ -1,6 +1,6 @@
 <!-- Header
 ============================================= -->
-<header id="header" class="full-header static-sticky" data-sticky-class="dark" data-sticky-offset="full" data-sticky-offset-negative="0">
+<header id="header" class="full-header transparent-header dark static-sticky" data-sticky-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="100">
     <div id="header-wrap">
         <div class="container clearfix">
             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>

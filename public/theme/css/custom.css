@@ -15,6 +15,18 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.flex {
+	display:flex;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.align-center {
+	align-items:center;
+}
+
 /* General */
 
 .asisp-gold {
@@ -111,6 +123,30 @@ body {
 	max-width:700px;
 }
 
+.wide-section {
+	max-width:900px;
+}
+
+.subtext p {
+	font-size:1.6rem;
+}
+
+.subtext-sm p {
+	font-size:1.4rem;
+}
+
+.subtext-xs p {
+	font-size:1.2rem;
+}
+
+.asisp-txt-md {
+	font-size:1.4rem;
+}
+
+.asisp-txt-lg {
+	font-size:1.6rem;
+}
+
 /* Social media block */
 
 .social-media-block {
@@ -169,6 +205,7 @@ footer h4 p {
 
 .divider-asisp {
 	border-bottom: 3px solid #b58f6a;
+	/* display:flex; */
 }
 
 .gci-divider {
@@ -219,8 +256,16 @@ footer h4 p {
 	text-transform:uppercase !important;
 }
 
+.top-block{
+	background: rgba(0,0,0,.4);	
+}
 
-.heading-block h4 {
+
+.top-block h1, .top-block h2, .top-block h3 {
+	color: #EEE;
+}
+
+.top-block h4 {
 	font-size: 20px;
 	color: #EEE;
 	/* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
@@ -250,6 +295,13 @@ footer h4 p {
 	margin-bottom:10px;
 }
 
+.border-bottom-asisp {
+	border-bottom:5px solid #b58f6a;
+}
+
+.border-top-asisp {
+	border-bottom:5px solid #b58f6a;
+}
 
 .center-column {
 	display: flex;
@@ -262,6 +314,12 @@ footer h4 p {
 .image-panel {
 	background: rgba(0,0,0,.4);	
 	padding:2rem;
+}
+
+.flex-end {
+	display:flex;
+	justify-content: flex-end;
+	text-align: end;
 }
 
 
@@ -280,19 +338,35 @@ footer h4 p {
 		background: rgba(0,0,0,.4);	
 	}
 
+
 	.heading-home-top h1 {
 		font-size: 40px;
 		color: #EEE;
 		text-shadow: -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee, 1px 1px 0 #eee;
 		/* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
-		
 	}
 
 	.heading-text {
 		max-width: 50%;
 	}
 
+
+	.top-block {
+		padding:35px;
+	}
 	
+	.block-top {
+		width:60%;
+		display:flex;
+		flex-direction: column;
+	}
+
+	.heading-block h1 {
+		font-size: 32px;
+		color: #EEE;
+		margin: 25px 0;
+	}
+
 }
 
 
@@ -306,6 +380,7 @@ footer h4 p {
 
 	.heading-home-top {
 		display:flex;
+		flex-direction:column;
 		align-items:center;
 		justify-content:center;
 		padding: 5px 7px 5px 5px;
@@ -323,6 +398,7 @@ footer h4 p {
 	.heading-top h1 {
 		font-size:22px;
 		margin:0;
+		
 	}
 	
 	.heading-top h4 {
@@ -331,6 +407,10 @@ footer h4 p {
 
 	.heading-text {
 		display:none;
+	}
+
+	.top-block {
+		padding:25px;
 	}
 }
 

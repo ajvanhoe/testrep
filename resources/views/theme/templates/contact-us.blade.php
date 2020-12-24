@@ -1,14 +1,14 @@
-<section id="slider" class="slider-element slider-parallax" style="background: url('{{asset('theme/images/hero/contact-us-citizenship-european-gci.jpg')}}'); background-size: cover;" data-height-xl="670" data-height-lg="500" data-height-md="400" data-height-sm="250" data-height-xs="200">
+<section id="slider" class="slider-element slider-parallax" style="background: url('{{asset('theme/images/asisp/asisp-zibres.jpg')}}'); background-size: cover;" data-height-xl="670" data-height-lg="500" data-height-md="400" data-height-sm="250" data-height-xs="200">
     <div class="slider-parallax-inner">
         <div class="container clearfix">
             <div class="vertical-middle center">
 
-                <div class="heading-block nobottomborder center">
-					<div class="heading-home-top py-3 my-3">
-						<h1 class="str-text py-3">{{$page->title}}	</h1>
+                <div class="nobottomborder center">
+					<div class="top-block py-3 my-3">
+						<h1 class="mt-4">Contact Us</h1>
 						    <h3>
 							<div class="text-rotater" data-separator="|" data-rotate="flipInX" data-speed="3500">
-							<span class="str-text">We make your Business</span> <span class="t-rotate str-text">Simple|Customizable|Flexible|Easy|Profitable</span>
+							<span class="str-text">We make your Business</span> <span class="t-rotate str-text">Simple|Flexible|Easy|Profitable</span>
 							</div>
 					        </h3>
 					</div>

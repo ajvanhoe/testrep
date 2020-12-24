@@ -4,7 +4,7 @@
 <!-- Document Wrapper -->
 <div id="wrapper" class="clearfix">
 
-@include('theme.partials.header')
+@include('theme.partials.header-transparent')
 <!-- Content -->
 @include('theme.templates.home')
 @include('theme.partials.keyword-links')
