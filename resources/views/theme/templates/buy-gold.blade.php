@@ -86,7 +86,7 @@ remaining money. The payment goes to our ​company account​.</p>
 	<div class="container clearfix">
         <div class="main-section divcenter">
 		    <div class="image-panel col_full center topmargin subtext-xs"> 
-            <p>Don’t hesitate to contact us and get​ the best deal on the market​, and the​ full logistic assistance ​from your new long-term partner.</p>
+            <p<span class="asisp-gold">Don’t hesitate to contact us and get​ the best deal on the market​, and the​ full logistic assistance ​from your new long-term partner.</span></p>
                 <a href="{{route('contact')}}" class="button btn-asisp button-rounded button-medium noleftmargin topmargin-sm">Contact Us</a>
             </div>
 		</div>
