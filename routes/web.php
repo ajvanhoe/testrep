@@ -62,9 +62,9 @@ Route::group(['middleware'=>'auth'], function(){
         /* Other */
 
 /* Mail routes */
-Route::post('/contact/send-mail', 'ContactFormController@store')->name('send.mail');    
+//Route::post('/contact/send-mail', 'ContactFormController@store')->name('send.mail');    
 //Route::post('/contact/callback', 'ContactFormController@callback')->name('callback');    
-Route::post('/contact/subscribe', 'ContactFormController@subscribe')->name('subscribe'); 
+//Route::post('/contact/subscribe', 'ContactFormController@subscribe')->name('subscribe'); 
 
 /* Download brochure' */
 Route::get('/brochure', function () {
